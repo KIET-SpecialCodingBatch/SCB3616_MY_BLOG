@@ -1,0 +1,76 @@
+/* Set a background color for the body */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav .navbar-brand {
+    font-weight: bold;
+  }
+  
+  nav .nav-link {
+    color: #343a40;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 1em;
+  }
+  
+  nav .nav-link:hover {
+    color: #dc3545;
+  }
+  
+  /* Style the page header */
+  header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 6em 0;
+  }
+  
+  header h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  header .subheading {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Style the main content */
+  .container {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  p {
+    font-size: 1.25em;
+    line-height: 1.5;
+    margin-bottom: 2em;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 3em 0;
+  }
+  
+  footer .text-muted {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+  }
+  

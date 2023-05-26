@@ -1,0 +1,121 @@
+/* Navbar */
+body {
+  background-image: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmxvZ3xlbnwwfHwwfHw%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+
+/* Page Header */
+.page-heading {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.page-heading h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.page-heading .subheading {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+/* Form */
+form {
+  margin-top: 50px;
+}
+
+.control-group {
+  margin-bottom: 25px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Post */
+.post {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 50px;
+}
+
+.post-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+  background-color: #555;
+}
